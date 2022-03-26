@@ -12,7 +12,9 @@ module.exports = (env, agrv) => {
   const isAnalyze = env && env.analyze;
 
   const basePlugins = [
-    new Dotenv(),
+    new Dotenv({
+      systemvars: true
+    }),
     new HtmlWebpackPlugin({
       template: './public/index.html',
       filename: 'index.html',
