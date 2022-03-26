@@ -1,7 +1,7 @@
 // import './App.scss';
 import { Router, Route, Switch, Redirect } from 'react-router-dom';
 import HomePage from 'pages/HomePage';
-import '../assets/scss/App.scss';
+import '../assets/scss/app.scss';
 import history from 'helper/history';
 import HomeTemplate from 'template/HomeTemplate';
 import { routes } from 'routes/routes';
